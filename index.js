@@ -1,6 +1,6 @@
 const container = document.getElementById('container') //Get container 
-const SquareNr = 500 // set the number of desire squares 
-const colors = ['#AEFFE9','#FF99CC','#00513B','#C9C9C9' ]
+const SquareNr = 1000 // set the number of desire squares 
+const colors = ['#AEFFE9','#FF99CC','#00513B','#C9C9C9']
 
 //LOOP TO CREATE THE SQUARES
 for(let i = 0; i < SquareNr; i++){ 
@@ -23,6 +23,7 @@ for(let i = 0; i < SquareNr; i++){
 function setColorToEl(element) {
     const color = getRadomColor()
     element.style.background = color
+    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`
 }
 
 // FUNCTION TO GET A RANDOM COLOR 
@@ -32,7 +33,7 @@ function getRadomColor(){
 
 //FUNCTION TO REMOVE THE BG COLOR FROM SQUARE 
 function removeColorFromEl(element) {
-    const color = getRadomColor()
     element.style.background = null
+    element.style.boxShadow = null
 }
 
