@@ -1,6 +1,6 @@
 const container = document.getElementById('container') //Get container 
 const SquareNr = 1000 // set the number of desire squares 
-const colors = ['#AEFFE9','#FF99CC','#00513B','#C9C9C9']
+const colors = ['#AEFFE9','#FF99CC','#00513B','#C9C9C9','#b5179e','#264653','#0a9396',]
 
 //LOOP TO CREATE THE SQUARES
 for(let i = 0; i < SquareNr; i++){ 
