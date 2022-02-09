@@ -10,6 +10,7 @@
 - JS Dom manipulation; 
 - JS Functions; 
 - JS For loop;
+- Js Array;
 
 <br>
 
